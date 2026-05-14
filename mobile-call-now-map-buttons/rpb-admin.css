@@ -1,0 +1,138 @@
+/* !Settings Table */
+/*  ---------------------------------------------------------------------------------------------------*/
+#rpb table th, 
+#rpb table td {
+	vertical-align: top;
+}
+/* !DEVICES */
+/* ---------------------------------------------------------------------------------------------------*/
+#rpb #rpb_devices {
+	overflow: visible;
+	padding-bottom: 25px;
+}
+#rpb #rpb_devices > div {
+	width: 50px;
+	height: 60px;
+	float: left;
+	position: relative;
+	margin-right: 10px;
+}
+#rpb #rpb_devices > div:hover {
+	cursor: pointer;
+}
+#rpb #rpb_devices > div:hover span:nth-child(1) {
+	border-color: #777;
+}
+#rpb #rpb_devices > div:hover span:nth-child(2) {
+	color: #777;
+}
+#rpb #rpb_devices > div,
+#rpb #rpb_devices > div * {
+	transition: 0.5s all ease;
+}
+#rpb #rpb_devices > div > span:nth-child(1) {
+	border: 1px solid #ccc;
+	border-top-width: 4px;
+	border-bottom-width: 4px;
+	display: block;
+	border-radius: 2px;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+}
+#rpb #rpb_devices #iphone_se span:nth-child(1) {
+	width: 14px;
+	height: 23px;
+	margin-left: calc( ( -13px / 2 ) - 1px );
+} 
+#rpb #rpb_devices #iphone_6s span:nth-child(1) {
+	width: 16px;
+	height: 26px;
+	margin-left: calc( ( -15px / 2 ) - 1px );
+} 
+#rpb #rpb_devices #iphone_6sp span:nth-child(1) {
+	width: 18px;
+	height: 30px;
+	margin-left: calc( ( -17px / 2 ) - 1px );
+} 
+#rpb #rpb_devices #default span:nth-child(1) {
+	width: 23px;
+	height: 34px;
+	margin-left: calc( ( -23px / 2 ) - 1px );
+} 
+#rpb #rpb_devices #ipad_air2 span:nth-child(1) {
+	border-left-width: 2px;
+	border-right-width: 2px;
+	width: 28px;
+	height: 37px;
+	margin-left: calc( ( -27px / 2 ) - 2px );
+} 
+#rpb #rpb_devices #ipad_pro span:nth-child(1) {
+	border-left-width: 2px;
+	border-right-width: 2px;
+	width: 34px;
+	height: 44px;
+	margin-left: calc( ( -33px / 2 ) - 2px );
+} 
+/* !DEVICE LABEL */
+/* ---------------------------------------------------------------------------------------------------*/
+#rpb #rpb_devices > div > span:nth-child(2) {
+	position: absolute;
+	bottom:0;
+	width: 100%;
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	color: #ccc;
+}
+/* !LOCATION TOGGLE */
+/* ---------------------------------------------------------------------------------------------------*/
+#rpb .location_option { 
+	padding: 15px 0 0 0; 
+	display: none; 
+}
+#rpb label.label { 
+	width: 90px; 
+	display: inline-block; 
+}
+/* !SUPPORT*/
+/* ---------------------------------------------------------------------------------------------------*/
+#rpb div.code {
+	padding: 5px;
+	border: 1px solid #ccc;
+	font-size: 9px;
+	line-height: 1.1em;
+	width: 100%;
+	max-width: 600px;
+	height: auto;
+	background: #ddd;
+	width: 377px;
+	color: #999;
+}
+/* !CREDIT*/
+/* ---------------------------------------------------------------------------------------------------*/
+#rpb #streetcred {
+	font-size: 10px;
+	margin-bottom:0;
+}
+#rpb #streetcred,
+#rpb #streetcred a:link,
+#rpb #streetcred a:visited {
+	color: #ccc;
+	text-decoration: none;	
+}
+#rpb #streetcred a:hover,
+#rpb #streetcred a:visited:hover {
+	color: #666;
+}
+#mcnmb-place-id-help,
+#rpb .mcnmb-place-id-help {
+	margin: 10px 0 0;
+}
+#rpb .mcnmb-place-id-field {
+	padding: 15px 0 0;
+}
+#rpb .mcnmb-place-id-field input.regular-text {
+	width: 98.5%;
+	max-width: 420px;
+}
